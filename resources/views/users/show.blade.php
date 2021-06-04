@@ -86,4 +86,13 @@
     </script>
 @endif
 
+@if(Session::has('edit'))
+    <script>
+          swal({
+                text:"Edit Success!",
+                icon: "success",
+});
+    </script>
+@endif
+
 @endsection

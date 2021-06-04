@@ -6,6 +6,7 @@ use App\Couple;
 use App\Http\Requests\Users\UpdateRequest;
 use App\Jobs\Users\DeleteAndReplaceUser;
 use App\User;
+use Session;
 use App\UserMetadata;
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
@@ -147,6 +148,8 @@ class UsersController extends Controller
         }
         $mapCenterLatitude = $mapCenterLatitude ?: config('leaflet.map_center_latitude');
         $mapCenterLongitude = $mapCenterLongitude ?: config('leaflet.map_center_longitude');
+
+       
 
         return view('users.edit', compact(
             'user', 'replacementUsers', 'validTabs', 'mapZoomLevel', 'mapCenterLatitude', 'mapCenterLongitude'
