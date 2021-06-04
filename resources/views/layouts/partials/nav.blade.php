@@ -1,4 +1,14 @@
-<nav class="navbar navbar-default navbar-static-top">
+<style>
+.navbar{
+height:80px;
+background: #0C2D48;
+}
+.logo-img{
+    height:75px;
+    width:80px;
+}
+</style>
+<nav class="navbar navbar-default navbar-static-top" >
     <div class="container">
         <div class="navbar-header">
 
@@ -11,9 +21,8 @@
             </button>
 
             <!-- Branding Image -->
-            <a class="navbar-brand" href="{{ url('/') }}">
-                SEED
-            </a>
+            <img class="logo-img" src="{{('../images/logo.png')}}" alt="Team_image">
+           
         </div>
 
         <div class="collapse navbar-collapse" id="app-navbar-collapse">

@@ -17,6 +17,10 @@
     .page-header {
         margin-top: 0px;
     }
+    body{
+    background: #B1D4E0;
+    font-family: 'Josefin Sans', sans-serif;
+}
     </style>
 </head>
 <body>

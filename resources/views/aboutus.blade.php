@@ -11,7 +11,7 @@
 }
 
 body{
-  background: #FFFFFF;
+  background: #B1D4E0;
   font-family: 'Josefin Sans', sans-serif;
 }
 
