@@ -21,7 +21,7 @@ background: #0C2D48;
             </button>
 
             <!-- Branding Image -->
-            <img class="logo-img" src="{{('../images/logo.png')}}" alt="Team_image">
+            <img class="logo-img" src="{{('../images/logo.png')}}" alt="logo">
            
         </div>
 

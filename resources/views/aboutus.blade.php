@@ -9,9 +9,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+img{
+    border-radius: 100px;
+}
 body{
-  background: #B1D4E0;
+  background: #122620;
   font-family: 'Josefin Sans', sans-serif;
 }
 

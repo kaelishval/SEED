@@ -18,7 +18,10 @@
         margin-top: 0px;
     }
     body{
-    background: #B1D4E0;
+    background: #122620;
+    /* background-image: url("../images/family.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 800px; */
     font-family: 'Josefin Sans', sans-serif;
 }
     </style>
