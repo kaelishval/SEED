@@ -20,7 +20,9 @@
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav">
                 <li><a href="{{ route('users.search') }}">{{ __('app.search_your_family') }}</a></li>
+                <li><a href="{{ route('profile') }}">My Family</a></li>
                 <li><a href="{{ route('users.about') }}">About Us</a></li>
+                
             </ul>
 
             <!-- Right Side Of Navbar -->
@@ -41,7 +43,7 @@
                             @if (is_system_admin(auth()->user()))
                                 <li><a href="{{ route('backups.index') }}">{{ __('backup.list') }}</a></li>
                             @endif
-                            <li><a href="{{ route('profile') }}">{{ __('app.my_profile') }}</a></li>
+                            
                             <li><a href="{{ route('password.change') }}">{{ __('auth.change_password') }}</a></li>
                             <li>
                                 <a href="{{ route('logout') }}"
