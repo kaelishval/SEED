@@ -89,8 +89,7 @@ body{
   <div class="team">
     <div class="team_member">
       <div class="team_img">
-        <img src="images/kael.jpg" alt="Team_image">
-        
+        <img src="{{('../images/kael.jpg')}}" alt="Team_image">
       </div>
       <h3>Karl Michael Mauro</h3>
       <p class="role">UI developer</p>
@@ -98,7 +97,7 @@ body{
     </div>
     <div class="team_member">
       <div class="team_img">
-        <img src="" alt="Team_image">
+        <img src="{{('../images/louis.png')}}" alt="Team_image">
         
       </div>
       <h3>Louis Arcilla</h3>
@@ -106,7 +105,7 @@ body{
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p></div>
     <div class="team_member">
       <div class="team_img">
-        <img src="images/van.jpg" alt="Team_image">
+        <img src="{{('../images/van.jpg')}}" alt="Team_image">
       </div>
       <h3>Van Coke Velasquez</h3>
       <p class="role">Support Lead</p>
@@ -114,7 +113,7 @@ body{
     </div>
     <div class="team_member">
       <div class="team_img">
-        <img src="images/tope.png" alt="Team_image">
+        <img src="{{('../images/tope.png')}}" alt="Team_image">
       </div>
       <h3>Christoph Carreon</h3>
       <p class="role">CEO</p>
