@@ -7,6 +7,11 @@ background: #0C2D48;
     height:75px;
     width:80px;
 }
+li{
+    list-style: none;
+    font-size: 23px;
+    margin-top: 15px;
+}
 </style>
 <nav class="navbar navbar-default navbar-static-top" >
     <div class="container">
