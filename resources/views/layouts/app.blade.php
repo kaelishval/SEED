@@ -24,7 +24,12 @@
     background-repeat: no-repeat;
     background-size: 1600px 800px; */
     font-family: 'Josefin Sans', sans-serif;
+
+    
 }
+    table{
+        background-color:#D4F1F4;
+    }
     </style>
 </head>
 <body>

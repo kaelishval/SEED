@@ -9,7 +9,7 @@ background: #0C2D48;
 }
 li{
     list-style: none;
-    font-size: 23px;
+    
     margin-top: 15px;
 }
 </style>
