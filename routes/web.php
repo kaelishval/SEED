@@ -29,6 +29,7 @@ Route::post('family-actions/{user}/add-wife', 'FamilyActionsController@addWife')
 Route::post('family-actions/{user}/add-husband', 'FamilyActionsController@addHusband')->name('family-actions.add-husband');
 Route::post('family-actions/{user}/set-parent', 'FamilyActionsController@setParent')->name('family-actions.set-parent');
 
+Route::get('about-us', 'UsersController@aboutus')->name('users.about');
 Route::get('profile-search', 'UsersController@search')->name('users.search');
 Route::get('users/{user}', 'UsersController@show')->name('users.show');
 Route::get('users/{user}/edit', 'UsersController@edit')->name('users.edit');
@@ -38,6 +39,7 @@ Route::get('users/{user}/tree', 'UsersController@tree')->name('users.tree');
 Route::get('users/{user}/death', 'UsersController@death')->name('users.death');
 Route::patch('users/{user}/photo-upload', 'UsersController@photoUpload')->name('users.photo-upload');
 Route::delete('users/{user}', 'UsersController@destroy')->name('users.destroy');
+
 
 Route::get('users/{user}/marriages', 'UserMarriagesController@index')->name('users.marriages');
 

@@ -20,7 +20,7 @@
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav">
                 <li><a href="{{ route('users.search') }}">{{ __('app.search_your_family') }}</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="{{ route('users.about') }}">About Us</a></li>
             </ul>
 
             <!-- Right Side Of Navbar -->

@@ -36,6 +36,13 @@ class UsersController extends Controller
         return view('users.search', compact('users'));
     }
 
+    public function aboutus()
+    {
+        $test="Michael";
+        
+        return view('aboutus');
+    }
+
     /**
      * Display the specified User.
      *
@@ -98,6 +105,7 @@ class UsersController extends Controller
     {
         return view('users.tree', compact('user'));
     }
+    
 
     /**
      * Show user death info.
