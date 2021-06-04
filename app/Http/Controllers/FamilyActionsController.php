@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 use App\Couple;
+use Session;
 use Ramsey\Uuid\Uuid;
 use Illuminate\Http\Request;
 
@@ -36,6 +37,7 @@ class FamilyActionsController extends Controller
 
             $user->setFather($father);
         }
+        Session::flash('setfather','success');
 
         return back();
     }
@@ -67,7 +69,7 @@ class FamilyActionsController extends Controller
 
             $user->setMother($mother);
         }
-
+        Session::flash('setmother','success');
         return back();
     }
 
@@ -114,7 +116,7 @@ class FamilyActionsController extends Controller
         }
 
         \DB::commit();
-
+        Session::flash('setchild','success');
         return back();
     }
 
@@ -145,7 +147,7 @@ class FamilyActionsController extends Controller
         }
 
         $user->addWife($wife, $request->get('marriage_date'));
-
+        Session::flash('setwife','success');
         return back();
     }
 
@@ -176,7 +178,7 @@ class FamilyActionsController extends Controller
         }
 
         $user->addHusband($husband, $request->get('marriage_date'));
-
+        Session::flash('sethusband','success');
         return back();
     }
 
@@ -191,7 +193,7 @@ class FamilyActionsController extends Controller
     {
         $user->parent_id = $request->get('set_parent_id');
         $user->save();
-
+        Session::flash('setparent','success');
         return redirect()->route('users.show', $user);
     }
 }

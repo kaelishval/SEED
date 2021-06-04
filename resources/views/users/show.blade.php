@@ -37,4 +37,53 @@
     });
 })();
 </script>
+@if(Session::has('setfather'))
+    <script>
+          swal({
+                text:"Father set!",
+                icon: "success",
+});
+    </script>
+@endif
+@if(Session::has('setparent'))
+    <script>
+          swal({
+                text:"Parent set!",
+                icon: "success",
+});
+    </script>
+@endif
+@if(Session::has('sethusband'))
+    <script>
+          swal({
+                text:"Husband set!",
+                icon: "success",
+});
+    </script>
+@endif
+@if(Session::has('setwife'))
+    <script>
+          swal({
+                text:"wife set!",
+                icon: "success",
+});
+    </script>
+@endif
+@if(Session::has('setchild'))
+    <script>
+          swal({
+                text:"Child set!",
+                icon: "success",
+});
+    </script>
+@endif
+@if(Session::has('setmother'))
+    <script>
+          swal({
+                text:"Mother set!",
+                icon: "success",
+});
+    </script>
+@endif
+
 @endsection
