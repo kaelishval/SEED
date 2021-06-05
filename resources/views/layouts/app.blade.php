@@ -11,7 +11,7 @@
     <title>SEED</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     @yield('ext_css')
     <style>
