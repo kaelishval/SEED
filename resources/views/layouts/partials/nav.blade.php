@@ -24,9 +24,9 @@ li{
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-
+        
             <!-- Branding Image -->
-            <img class="logo-img" src="{{('../images/logo.png')}}" alt="logo">
+            <img class="logo-img" src="{{('../../images/logo.png')}}" alt="logo">
            
         </div>
 
